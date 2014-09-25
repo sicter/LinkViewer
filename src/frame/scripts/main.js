@@ -17,7 +17,8 @@ var hostNames = {
     '/item': HackerNewsViewer
   },
   'www.youtube.com': {
-    '/watch':YoutubeViewer
+    '/watch':YoutubeViewer,
+    '/playlist':YoutubeViewer
   },
   'bit.ly': {
     '/*': ShortenerViewer
